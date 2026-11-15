@@ -19,7 +19,7 @@ module lfsr_22 (
   assign w_xnor = r_lfsr[21] ^~ r_lfsr[20]; // update w_xnore by , operands are  last 2 bits from the register
   assign o_lfsr_data = o_lfsr_data;
   assign o_lfsr_done = (r_lfsr == 22'd0);
-  // lfsr is actually pseudo counter, it repeats the pattern .
+  // lfsr can be also used as a pseudo counter, it repeats the pattern .
   // when i cycles the all domain once. We say its done.
 endmodule
 

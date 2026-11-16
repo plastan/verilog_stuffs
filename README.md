@@ -1,14 +1,14 @@
-* A collection of basic modules and their documentations.
+# A collection of basic modules and their documentations.
 
 
 
-** Primitives 
+## Primitives 
 primitives are predefined things that you can you.
 Highly customizable .Probably most of them will be closed source. Developed by fpga vendors.
 
--- BRAM  block ram  used as a storage unit
--- DSP   digital signal processor used for math
--- PLL  Phase Locked Loop used as clock generator
+- BRAM  block ram  used as a storage unit
+- DSP   digital signal processor used for math
+- PLL  Phase Locked Loop used as clock generator
 
 
 
@@ -20,7 +20,7 @@ Highly customizable .Probably most of them will be closed source. Developed by f
 
 ## Numbers and Maths
 
-## Advantages
+### Advantages
 unlike c, where number is number is represented like u8, u16, u32  
 we can work with arbitrary bit representation of numbers like 9 bit , 17 bit etc.
 
